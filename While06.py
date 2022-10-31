@@ -1,3 +1,6 @@
+
+
+
 def main(s):
     """
     A variable of type str is given. Find and return how many consonant letters there are.
@@ -10,18 +13,22 @@ def main(s):
     k=0
     i=0
     while i<len(s):
-        if str(s[i])==('a'):
+        if s[i]=='a':
             k+=1
-        if str(s[i])==('e'):
+        if s[i]=='u':
             k+=1
-        if str(s[i])==('o'):
+        if s[i]=='e':
             k+=1
-        if str(s[i])==('i'):
+        if s[i]=='i':
             k+=1
-        if str(s[i])==('u'):
+        if s[i]=='o':
             k+=1
+        else:
+            k
+
+            
         i+=1
     
-    return k
+    return len(s)-k
 
-print(main("CodeschoolUz"))
+print(main("Ccuijoaez"))
