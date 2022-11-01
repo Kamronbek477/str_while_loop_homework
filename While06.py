@@ -24,11 +24,10 @@ def main(s):
         if s[i]=='o':
             k+=1
         else:
-            k
-
+            k+=0
             
         i+=1
     
     return len(s)-k
 
-print(main("Ccuijoaez"))
+print(main("Ccuijoyyaez"))
